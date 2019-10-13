@@ -13,7 +13,7 @@ import scala.concurrent.ExecutionContext
 class UserRoute(implicit executionContext: ExecutionContext) {
   val userRepository = new UserRepository
   //Description of routes
-  //Example: localhost:8080/users/name/Saul will respond with JSON, containing info about User with name "Saul"
+  //Example: localhost:5000/users/name/Saul will respond with JSON, containing info about User with name "Saul"
   def routes = pathPrefix("users") {
     pathPrefix("id") {
       //Getting user by id

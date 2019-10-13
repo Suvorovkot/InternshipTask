@@ -21,3 +21,4 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http-testkit" % "10.1.7" % Test,
   "com.typesafe.akka" %% "akka-testkit" % "2.5.21" % Test
 )
+enablePlugins(JavaAppPackaging)
